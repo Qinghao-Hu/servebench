@@ -3,7 +3,7 @@ import time
 from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
 from qwen_vl_utils import process_vision_info
 
-model_path = "/nobackup/model/qwen2-vl/Qwen2-VL-7B-Instruct"
+model_path = "Qwen/Qwen2-VL-7B-Instruct"  # "/nobackup/model/qwen2-vl/Qwen2-VL-7B-Instruct"
 
 ##############################
 # 1. Load model and processor
