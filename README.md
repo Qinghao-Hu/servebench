@@ -1,3 +1,12 @@
+## VLM
+
+`pip install qwen-vl-utils`
+
+If meet any error with flash_attn, try
+```bash
+pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.5cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+```
+
 ## Installation
 
 ```bash
